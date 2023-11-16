@@ -1,0 +1,18 @@
+<div class="conta">
+    <div class="form-model">
+
+       <h2>Login</h2><br>
+       <form [formGroup]="loginform" (ngSubmit)="submit()">
+       <div class="col">
+          <input class="vla" type="text" formControlName="name" placeholder="Enter name"> <br>
+          <input class="vla" type="email" formControlName="email" placeholder="Enter email"><br>
+       </div>
+    
+
+      <button  class="btn btn-dark text-white">login</button>
+    </form>
+       <hr>
+    <a href="register"> <span class="d-flex align-items-center justify-content-center" style="color: black; font-size: 11px;margin-top:10px;">you dont have any account ?</span></a> 
+    </div>
+ </div>
+

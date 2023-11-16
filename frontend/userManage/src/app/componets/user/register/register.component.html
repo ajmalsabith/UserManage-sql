@@ -1,0 +1,19 @@
+<div class="conta">
+    <div class="form-model">
+
+       <h2>register</h2><br>
+       <form [formGroup]="registerform" (ngSubmit)="submit()">
+       <div class="col">
+          <input class="vla" type="text" formControlName="name" placeholder="Enter name"> <br>
+          <input class="vla" type="email" formControlName="email" placeholder="Enter email"><br>
+          <input class="vla" type="number" formControlName="age" placeholder="Enter your age"><br>
+       </div>
+    
+
+      <button  class="btn btn-dark text-white">register</button>
+    </form>
+       <hr>
+    <a href="login"> <span class="d-flex align-items-center justify-content-center" style="color: black; font-size: 11px;margin-top:10px;">do you have any account ?</span></a> 
+    </div>
+ </div>
+
